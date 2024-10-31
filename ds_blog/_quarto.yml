@@ -1,0 +1,30 @@
+project:
+  type: website
+
+website:
+  navbar:
+    pinned: true
+    logo: ""
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - statistics.qmd
+      - href: machinelearning.qmd
+        text: Machine Learning
+      - href: deeplearning.qmd
+        text: Deep Learning
+      - href: nlp.qmd
+        text: NLP
+      - href: genai.qmd
+        text: Gen AI
+
+format:
+  html:
+    page-layout: full
+    theme: [zephyr,theme.scss]
+    css: styles.css
+    toc: true
+
+
+

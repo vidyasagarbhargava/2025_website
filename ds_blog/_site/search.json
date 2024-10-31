@@ -1,0 +1,93 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "\nReal World Data Science\n",
+    "section": "",
+    "text": "Real World Data Science"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About us",
+    "section": "",
+    "text": "The overarching goal of Quarto is to make the process of creating and collaborating on scientific and technical documents dramatically better. We hope to do this in several dimensions:\n\nCreate a writing and publishing environment with great integrated tools for technical content. We want to make authoring with embedded code, equations, figures, complex diagrams, interactive widgets, citations, cross references, and the myriad other special requirements of scientific discourse straightforward and productive for everyone.\nHelp authors take full advantage of the web as a connected, interactive platform for communications, while still providing the ability to create excellent printed output from the same document source. Researchers shouldn’t need to choose between LaTeX, MS Word, and HTML but rather be able to author documents that target all of them at the same time.\nMake reproducible research and publications the norm rather than the exception. Reproducibility requires that the code and data required to create a manuscript are an integrated part of it. However, this isn’t often straightforward in practice—Quarto aims to make it easier to adopt a reproducible workflow than not.\n\nQuarto is open source software. We believe that it’s better for everyone if the tools used for research and science are free and open. Reproducibility, widespread sharing of knowledge and techniques, and the leveling of the playing field by eliminating cost barriers are but a few of the shared benefits of free software in science."
+  },
+  {
+    "objectID": "statistics.html",
+    "href": "statistics.html",
+    "title": "Statistics",
+    "section": "",
+    "text": "Descriptive Statistics\n• Measures of Central Tendency: Mean, median, and mode, along with when each is appropriate. • Measures of Dispersion: Range, variance, standard deviation, and interquartile range. • Data Distribution: Understanding normal, binomial, Poisson, and exponential distributions.\n\n\n\n\n\n\n\n\n\n\nProbability and Probability Distributions\n• Basic Probability: Concepts of independence, conditional probability, Bayes’ theorem, and the law of total probability. • Random Variables and Probability Distributions: Familiarity with discrete (binomial, Poisson) and continuous (normal, exponential, chi-square) distributions. • Central Limit Theorem: Understanding its implications for sampling and population estimates.\nHypothesis Testing and Statistical Inference\n• Hypothesis Testing: Null and alternative hypotheses, p-values, statistical significance, and confidence levels. • Types of Errors: Type I (false positive) and Type II (false negative) errors. • Confidence Intervals: Construction and interpretation, including confidence levels and margin of error. • ANOVA and T-Tests: For comparing means across groups (independent, paired, one-way ANOVA, two-way ANOVA).\nRegression Analysis\n• Linear Regression: Assumptions, interpretation of coefficients, R-squared, and understanding residuals. • Logistic Regression: For binary classification, interpretation of coefficients in terms of odds ratios. • Regularization Techniques: Ridge, Lasso, and Elastic Net to prevent overfitting in high-dimensional datasets. • Multicollinearity: Detecting and addressing multicollinearity issues.\nMultivariate Statistics\n• Principal Component Analysis (PCA): Reducing dimensionality and interpreting principal components. • Factor Analysis: Understanding latent factors in data. • Clustering: K-means, hierarchical clustering, and DBSCAN for unsupervised learning. • MANOVA: Multi-way analysis of variance for multivariate response data.\nTime Series Analysis\n• Stationarity: Identifying and transforming non-stationary series. • ARIMA Models: Autoregressive, Integrated, Moving Average models for forecasting. • Seasonality and Trend Analysis: Decomposing series into trend, seasonality, and residual components. • Exponential Smoothing: For handling seasonal and trend components in time series.\nBayesian Statistics\n• Bayesian Inference: Understanding prior, likelihood, posterior distributions, and Bayes’ theorem applications. • Markov Chain Monte Carlo (MCMC): Sampling methods, especially when working with complex posterior distributions. • Bayesian Networks: Directed acyclic graphs for representing probabilistic relationships.\nStatistical Quality Control and Experimental Design\n• A/B Testing: Setting up, running, and interpreting results; understanding concepts like lift, conversion rates, and sample size calculation. • Design of Experiments (DOE): Full factorial, fractional factorial, and randomized block designs. • Chi-Square Tests: For independence and goodness of fit, especially useful with categorical data.\nResampling Methods\n• Bootstrap Methods: For estimating confidence intervals and understanding distributional properties without strong parametric assumptions. • Jackknife Resampling: Used primarily to estimate bias and variance, especially in small samples.\nAdvanced Topics\n• Survival Analysis: Kaplan-Meier estimator, Cox proportional hazards model for time-to-event data. • Monte Carlo Simulation: For probabilistic risk analysis and scenario testing. • Hidden Markov Models (HMM): Modeling sequences and state transitions in data, useful for time-series and sequential analysis."
+  },
+  {
+    "objectID": "about.html#goals",
+    "href": "about.html#goals",
+    "title": "About us",
+    "section": "",
+    "text": "The overarching goal of Quarto is to make the process of creating and collaborating on scientific and technical documents dramatically better. We hope to do this in several dimensions:\n\nCreate a writing and publishing environment with great integrated tools for technical content. We want to make authoring with embedded code, equations, figures, complex diagrams, interactive widgets, citations, cross references, and the myriad other special requirements of scientific discourse straightforward and productive for everyone.\nHelp authors take full advantage of the web as a connected, interactive platform for communications, while still providing the ability to create excellent printed output from the same document source. Researchers shouldn’t need to choose between LaTeX, MS Word, and HTML but rather be able to author documents that target all of them at the same time.\nMake reproducible research and publications the norm rather than the exception. Reproducibility requires that the code and data required to create a manuscript are an integrated part of it. However, this isn’t often straightforward in practice—Quarto aims to make it easier to adopt a reproducible workflow than not.\n\nQuarto is open source software. We believe that it’s better for everyone if the tools used for research and science are free and open. Reproducibility, widespread sharing of knowledge and techniques, and the leveling of the playing field by eliminating cost barriers are but a few of the shared benefits of free software in science."
+  },
+  {
+    "objectID": "about.html#project",
+    "href": "about.html#project",
+    "title": "About us",
+    "section": "Project",
+    "text": "Project\nAt the core of Quarto is Pandoc, a powerful and flexible document processing tool. Quarto adds a number of facilities to Pandoc aimed at scientific and technical publishing, including:\n\nEmbedding code and output from Python, R, and JavaScript via integration with Jupyter, Knitr, and Observable.\nA variety of extensions to Pandoc markdown useful for technical writing including cross-references, sub-figures, layout panels, hoverable citations and footnotes, callouts, and more.\nA project system for rendering groups of documents at once, sharing options across documents, and producing aggregate output like websites and books.\n\nDevelopment of Quarto is sponsored by Posit, PBC, where we previously created a similar system (R Markdown) that shared the same goals, but was targeted principally at users of the R language. The same core team works on both Quarto and R Markdown:\n\nJ.J. Allaire (@jjallaire)\nChristophe Dervieux (@cderv)\nCarlos Scheidegger (@cscheid)\nCharles Teague (@dragonstyle)\nYihui Xie (@yihui)\n\nWith Quarto, we are hoping to bring these tools to a much wider audience.\nQuarto is a registered trademark of Posit. Please see our trademark policy for guidelines on usage of the Quarto trademark."
+  },
+  {
+    "objectID": "about.html#contribute",
+    "href": "about.html#contribute",
+    "title": "About us",
+    "section": "Contribute",
+    "text": "Contribute\nYou can contribute to Quarto in many ways:\n\nBy opening issues to provide feedback and share ideas.\nBy submitting Pull Request (PR) to fix opened issues\nBy submitting Pull Request (PR) to suggest new features (it is considered good practice to open an issue for discussion before working on a pull request for a new feature).\n\nPlease be mindful of our code of conduct as you interact with other community members.\n\nPull Requests\nPull requests are very welcome! Here’s how to contribute via PR:\n\nFork the repository, clone it locally, and make your changes in a new branch specific to the PR. For example:\n\n\nTerminal\n\n# clone your fork\n$ git clone https://github.com/&lt;username&gt;/quarto-cli\n\n# configure for your platform (./configure.sh or ./configure.cmd for windows)\n$ cd quarto-cli\n$ ./configure.sh\n\n# checkout a new branch\n$ git checkout -b feature/newthing\n\nFor significant changes (e.g more than small bug fixes), ensure that you have signed the individual or corporate contributor agreement as appropriate. You can send the signed copy to jj@rstudio.com.\nSubmit the pull request. It is ok to submit as draft in your are still working on it but would like some feedback from us. It always good to share in the open that you are working on it.\n\nWe’ll try to be as responsive as possible in reviewing and accepting pull requests."
+  },
+  {
+    "objectID": "index.html#bio",
+    "href": "index.html#bio",
+    "title": "",
+    "section": "",
+    "text": "I’m a Lead Data Scientist at TVS Motor, working for connected mobility solutions department. My interests include Machine Learning, Natural Language Processing, and Generative AI. I have 10+ years of experience in the field of Machine learning and Data Science where I worked with various clients in developing prescriptive as well as predictive solutions to address core business problems.\n\n\n\n\n\n\nRoot Cause Analysis for Low Range Trips in EVs\n\nPredictive Maintenance of Brakes in two wheelers\n\nRange Prediction and Analysis for EVs\nCell Imbalance issues in batteries\nTime to charge for EV Battery\nVoice Assistant using RAG and LLMs\nChurn Prediction in Telecom Industry\nPrice optimization Engine for Scientific Pricing of Fashion Products\nNPS Improvement using explainable AI\nRetail store segmentation\nAnomaly Detection for machine parts failure\n\n\n\n\n\nB.Tech in Computer Science and Engineering\nXII in Computer Science\n\n\n\n\n\nNeural Networks and Deep Learning\nImproving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization\nBig Data Foundation\nIntroduction to Python"
+  },
+  {
+    "objectID": "index.html#honors-awards",
+    "href": "index.html#honors-awards",
+    "title": "\nReal World Data Science\n",
+    "section": "",
+    "text": "Thinking Hat at Wipro Limited | 2018\nBull’s Eye Award at Snapdeal | 2015"
+  },
+  {
+    "objectID": "index.html#talks-webinars",
+    "href": "index.html#talks-webinars",
+    "title": "\nReal World Data Science\n",
+    "section": "",
+    "text": "Introduction to Deep learning at Wipro Technologies on June 2017. [PPT]"
+  },
+  {
+    "objectID": "index.html#real-world-data-science",
+    "href": "index.html#real-world-data-science",
+    "title": "",
+    "section": "",
+    "text": "We do real world data science in different domains like retail, telecom and automobile.\n\n\n\n\n\n\nRoot Cause Analysis for Low Range Trips in EVs\n\nPredictive Maintenance of Brakes in two wheelers\n\nRange Prediction and Analysis for EVs\nCell Imbalance issues in batteries\nTime to charge for EV Battery\nVoice Assistant using RAG and LLMs\nChurn Prediction in Telecom Industry\nPrice optimization Engine for Scientific Pricing of Fashion Products\nNPS Improvement using explainable AI\nRetail store segmentation\nAnomaly Detection for machine parts failure\n\n\n\n\n\nB.Tech in Computer Science and Engineering\nXII in Computer Science\n\n\n\n\n\nNeural Networks and Deep Learning\nImproving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization\nBig Data Foundation\nIntroduction to Python"
+  },
+  {
+    "objectID": "index.html#goals",
+    "href": "index.html#goals",
+    "title": "\nReal World Data Science\n",
+    "section": "Goals",
+    "text": "Goals\nThe overarching goal of Quarto is to make the process of creating and collaborating on scientific and technical documents dramatically better. We hope to do this in several dimensions:\n\nCreate a writing and publishing environment with great integrated tools for technical content. We want to make authoring with embedded code, equations, figures, complex diagrams, interactive widgets, citations, cross references, and the myriad other special requirements of scientific discourse straightforward and productive for everyone.\nHelp authors take full advantage of the web as a connected, interactive platform for communications, while still providing the ability to create excellent printed output from the same document source. Researchers shouldn’t need to choose between LaTeX, MS Word, and HTML but rather be able to author documents that target all of them at the same time.\nMake reproducible research and publications the norm rather than the exception. Reproducibility requires that the code and data required to create a manuscript are an integrated part of it. However, this isn’t often straightforward in practice—Quarto aims to make it easier to adopt a reproducible workflow than not.\n\nQuarto is open source software. We believe that it’s better for everyone if the tools used for research and science are free and open. Reproducibility, widespread sharing of knowledge and techniques, and the leveling of the playing field by eliminating cost barriers are but a few of the shared benefits of free software in science."
+  },
+  {
+    "objectID": "index.html#project",
+    "href": "index.html#project",
+    "title": "\nReal World Data Science\n",
+    "section": "Project",
+    "text": "Project\nAt the core of Quarto is Pandoc, a powerful and flexible document processing tool. Quarto adds a number of facilities to Pandoc aimed at scientific and technical publishing, including:\n\nEmbedding code and output from Python, R, and JavaScript via integration with Jupyter, Knitr, and Observable.\nA variety of extensions to Pandoc markdown useful for technical writing including cross-references, sub-figures, layout panels, hoverable citations and footnotes, callouts, and more.\nA project system for rendering groups of documents at once, sharing options across documents, and producing aggregate output like websites and books.\n\nDevelopment of Quarto is sponsored by Posit, PBC, where we previously created a similar system (R Markdown) that shared the same goals, but was targeted principally at users of the R language. The same core team works on both Quarto and R Markdown:\n\nJ.J. Allaire (@jjallaire)\nChristophe Dervieux (@cderv)\nCarlos Scheidegger (@cscheid)\nCharles Teague (@dragonstyle)\nYihui Xie (@yihui)\n\nWith Quarto, we are hoping to bring these tools to a much wider audience.\nQuarto is a registered trademark of Posit. Please see our trademark policy for guidelines on usage of the Quarto trademark."
+  },
+  {
+    "objectID": "index.html#contribute",
+    "href": "index.html#contribute",
+    "title": "\nReal World Data Science\n",
+    "section": "Contribute",
+    "text": "Contribute\nYou can contribute to Quarto in many ways:\n\nBy opening issues to provide feedback and share ideas.\nBy submitting Pull Request (PR) to fix opened issues\nBy submitting Pull Request (PR) to suggest new features (it is considered good practice to open an issue for discussion before working on a pull request for a new feature).\n\nPlease be mindful of our code of conduct as you interact with other community members.\n\nPull Requests\nPull requests are very welcome! Here’s how to contribute via PR:\n\nFork the repository, clone it locally, and make your changes in a new branch specific to the PR. For example:\n\n\nTerminal\n\n# clone your fork\n$ git clone https://github.com/&lt;username&gt;/quarto-cli\n\n# configure for your platform (./configure.sh or ./configure.cmd for windows)\n$ cd quarto-cli\n$ ./configure.sh\n\n# checkout a new branch\n$ git checkout -b feature/newthing\n\nFor significant changes (e.g more than small bug fixes), ensure that you have signed the individual or corporate contributor agreement as appropriate. You can send the signed copy to jj@rstudio.com.\nSubmit the pull request. It is ok to submit as draft in your are still working on it but would like some feedback from us. It always good to share in the open that you are working on it.\n\nWe’ll try to be as responsive as possible in reviewing and accepting pull requests."
+  }
+]

@@ -1,0 +1,39 @@
+/* Make navbar translucent */
+.navbar {
+    background-color: transparent; /* Adjust color and opacity */
+    backdrop-filter: blur(8px);
+}
+
+
+.main-container {
+  max-width: 1200px; /* Adjust to your desired width */
+  margin: 0 auto; /* Center-align the content */
+}
+
+.card-container {
+    display: flex;
+    gap: 20px; /* Space between the cards */
+    justify-content: center; /* Center cards horizontally */
+    flex-wrap: wrap; /* Wrap cards to the next line on smaller screens */
+  }
+
+  /* Style for the card */
+  .card {
+    width: 1000px; /* Adjust width as needed */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+  }
+
+  /* Style for the image inside the card */
+  .card img {
+    width: 100%; /* Image width matches the card width */
+    height: auto; /* Keeps aspect ratio */
+  }
+
+  /* Style for the container inside the card */
+  .card .container {
+    padding: 16px;
+  }

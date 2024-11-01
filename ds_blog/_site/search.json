@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "\nReal World Data Science\n",
     "section": "",
-    "text": "Real World Data Science"
+    "text": "Real World Data Science\n\n\nSolving real world data science with open source tools!\n\n\n\n\n\n\n\nMachine Learning\n\n\n\n\n\n\n\nStatistics\n\n\n\n\n\n\n\nDeep Learning\n\n\n\n\n\n\n\nGenerative AI\n\n\n\n\n\n\n\nNatural Language Processing\n\n\n\n\n\n\n\nComputer Vision"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About us",
     "section": "",
-    "text": "The overarching goal of Quarto is to make the process of creating and collaborating on scientific and technical documents dramatically better. We hope to do this in several dimensions:\n\nCreate a writing and publishing environment with great integrated tools for technical content. We want to make authoring with embedded code, equations, figures, complex diagrams, interactive widgets, citations, cross references, and the myriad other special requirements of scientific discourse straightforward and productive for everyone.\nHelp authors take full advantage of the web as a connected, interactive platform for communications, while still providing the ability to create excellent printed output from the same document source. Researchers shouldn’t need to choose between LaTeX, MS Word, and HTML but rather be able to author documents that target all of them at the same time.\nMake reproducible research and publications the norm rather than the exception. Reproducibility requires that the code and data required to create a manuscript are an integrated part of it. However, this isn’t often straightforward in practice—Quarto aims to make it easier to adopt a reproducible workflow than not.\n\nQuarto is open source software. We believe that it’s better for everyone if the tools used for research and science are free and open. Reproducibility, widespread sharing of knowledge and techniques, and the leveling of the playing field by eliminating cost barriers are but a few of the shared benefits of free software in science."
+    "text": "We love open source tools for building quality solutions !"
   },
   {
     "objectID": "statistics.html",
@@ -89,5 +89,166 @@
     "title": "\nReal World Data Science\n",
     "section": "Contribute",
     "text": "Contribute\nYou can contribute to Quarto in many ways:\n\nBy opening issues to provide feedback and share ideas.\nBy submitting Pull Request (PR) to fix opened issues\nBy submitting Pull Request (PR) to suggest new features (it is considered good practice to open an issue for discussion before working on a pull request for a new feature).\n\nPlease be mindful of our code of conduct as you interact with other community members.\n\nPull Requests\nPull requests are very welcome! Here’s how to contribute via PR:\n\nFork the repository, clone it locally, and make your changes in a new branch specific to the PR. For example:\n\n\nTerminal\n\n# clone your fork\n$ git clone https://github.com/&lt;username&gt;/quarto-cli\n\n# configure for your platform (./configure.sh or ./configure.cmd for windows)\n$ cd quarto-cli\n$ ./configure.sh\n\n# checkout a new branch\n$ git checkout -b feature/newthing\n\nFor significant changes (e.g more than small bug fixes), ensure that you have signed the individual or corporate contributor agreement as appropriate. You can send the signed copy to jj@rstudio.com.\nSubmit the pull request. It is ok to submit as draft in your are still working on it but would like some feedback from us. It always good to share in the open that you are working on it.\n\nWe’ll try to be as responsive as possible in reviewing and accepting pull requests."
+  },
+  {
+    "objectID": "machinelearning.html",
+    "href": "machinelearning.html",
+    "title": "",
+    "section": "",
+    "text": "title: “Machine Learning” listing: contents: posts fields: [date, title, author, image, description] sort: “date desc” type: default categories: false sort-ui: false filter-ui: false page-layout: full title-block-banner: true comments: false"
+  },
+  {
+    "objectID": "machine learning/machinelearning.html",
+    "href": "machine learning/machinelearning.html",
+    "title": "",
+    "section": "",
+    "text": "title: “Machine Learning” listing: contents: posts fields: [date, title, author, image, description] sort: “date desc” type: default categories: false sort-ui: false filter-ui: false page-layout: full title-block-banner: true comments: false"
+  },
+  {
+    "objectID": "machinelearning/machinelearning.html",
+    "href": "machinelearning/machinelearning.html",
+    "title": "",
+    "section": "",
+    "text": "title: “Machine Learning” listing: contents: posts fields: [date, title, author, image, description] sort: “date desc” type: default categories: false sort-ui: false filter-ui: false page-layout: full title-block-banner: true comments: false"
+  },
+  {
+    "objectID": "machinelearning/about.html",
+    "href": "machinelearning/about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "machinelearning/posts/welcome/index.html",
+    "href": "machinelearning/posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "machinelearning/posts/post-with-code/index.html",
+    "href": "machinelearning/posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "machinelearning/index.html",
+    "href": "machinelearning/index.html",
+    "title": "machinelearning",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nNov 2, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 30, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "genai/about.html",
+    "href": "genai/about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "genai/posts/welcome/index.html",
+    "href": "genai/posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "nlp/about.html",
+    "href": "nlp/about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "nlp/posts/welcome/index.html",
+    "href": "nlp/posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "deeplearning/about.html",
+    "href": "deeplearning/about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "deeplearning/posts/welcome/index.html",
+    "href": "deeplearning/posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "statistics/about.html",
+    "href": "statistics/about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "statistics/posts/welcome/index.html",
+    "href": "statistics/posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "statistics/posts/post-with-code/index.html",
+    "href": "statistics/posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "statistics/index.html",
+    "href": "statistics/index.html",
+    "title": "statistics",
+    "section": "",
+    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nNov 2, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 30, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "deeplearning/posts/post-with-code/index.html",
+    "href": "deeplearning/posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "deeplearning/index.html",
+    "href": "deeplearning/index.html",
+    "title": "deeplearning",
+    "section": "",
+    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nNov 2, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 30, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "nlp/posts/post-with-code/index.html",
+    "href": "nlp/posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "nlp/index.html",
+    "href": "nlp/index.html",
+    "title": "nlp",
+    "section": "",
+    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nNov 2, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 30, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "genai/posts/post-with-code/index.html",
+    "href": "genai/posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "genai/index.html",
+    "href": "genai/index.html",
+    "title": "genai",
+    "section": "",
+    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nNov 2, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 30, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   }
 ]

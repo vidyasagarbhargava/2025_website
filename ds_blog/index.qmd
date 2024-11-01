@@ -11,80 +11,26 @@ jupyter: python3
 
 :::
  <h1 align="center">Real World Data Science</h1>
+ <h4 align="center">Solving real world data science with open source tools!</h4>
 
 
 
-```{python}
-import altair as alt
-import pandas as pd
-import numpy as np
+<style>
 
-np.random.seed(42)
-columns = ["A", "B", "C"]
-source = pd.DataFrame(
-    np.cumsum(np.random.randn(100, 3), 0).round(2),
-    columns=columns, index=pd.RangeIndex(100, name="x")
-)
-source = source.reset_index().melt("x", var_name="category", value_name="y")
-
-# Create a selection that chooses the nearest point & selects based on x-value
-nearest = alt.selection_point(nearest=True, on="pointerover",
-                              fields=["x"], empty=False)
-
-# The basic line
-line = alt.Chart(source).mark_line(interpolate="basis").encode(
-    x="x:Q",
-    y="y:Q",
-    color="category:N"
-)
-
-# Transparent selectors across the chart. This is what tells us
-# the x-value of the cursor
-selectors = alt.Chart(source).mark_point().encode(
-    x="x:Q",
-    opacity=alt.value(0),
-).add_params(
-    nearest
-)
-
-# Draw points on the line, and highlight based on selection
-points = line.mark_point().encode(
-    opacity=alt.condition(nearest, alt.value(1), alt.value(0))
-)
-
-# Draw text labels near the points, and highlight based on selection
-text = line.mark_text(align="left", dx=5, dy=-5).encode(
-    text=alt.condition(nearest, "y:Q", alt.value(" "))
-)
-
-# Draw a rule at the location of the selection
-rules = alt.Chart(source).mark_rule(color="gray").encode(
-    x="x:Q",
-).transform_filter(
-    nearest
-)
-
-# Put the five layers into a chart and bind the data
-alt.layer(
-    line, selectors, points, rules, text
-).properties(
-    width=600, height=500
-)
-```
-
-
-
-
-
-
-
-
-<!-- <style>
-  
+/* Unique background colors for each card */
+.card1 { background-color:  ; }  /* AliceBlue */
+.card2 { background-color: #EE6332; }  /* Lavender */
+.card3 { background-color: #404040; }  /* MistyRose */
+.card4 { background-color: #419596; }  /* LightGoldenRodYellow */
+.card5 { background-color: #72993E; }  /* LightGreen */
+.card6 { background-color: #9A4664; }  /* BlanchedAlmond */
 </style>
+
+
+
 <div class="card-container">
 
-<div class="card">
+<div class="card card1"  onclick="window.location.href='machinelearning.html'">
   <img src="https://t4.ftcdn.net/jpg/03/62/48/17/360_F_362481762_WYOXzZBC8J63iIu26IeoxXlo7hhIa47w.jpg" alt="Avatar">
   <div class="container">
   <h4><b>Machine Learning</b></h4> 
@@ -93,39 +39,40 @@ alt.layer(
 
 
 
-<div class="card">
+<div class="card card2" onclick="window.location.href='statistics.html'">
   <img src="https://t4.ftcdn.net/jpg/03/62/48/17/360_F_362481762_WYOXzZBC8J63iIu26IeoxXlo7hhIa47w.jpg" alt="Avatar">
   <div class="container">
   <h4><b>Statistics</b></h4> 
   </div>
 </div>
 
-<div class="card">
+<div class="card card3">
   <img src="https://t4.ftcdn.net/jpg/03/62/48/17/360_F_362481762_WYOXzZBC8J63iIu26IeoxXlo7hhIa47w.jpg" alt="Avatar">
   <div class="container">
   <h4><b>Deep Learning</b></h4> 
   </div>
 </div>
 
-<div class="card">
+<div class="card card4">
   <img src="https://t4.ftcdn.net/jpg/03/62/48/17/360_F_362481762_WYOXzZBC8J63iIu26IeoxXlo7hhIa47w.jpg" alt="Avatar">
   <div class="container">
   <h4><b>Generative AI</b></h4> 
   </div>
 </div>
-<div class="card">
+<div class="card card5">
   <img src="https://t4.ftcdn.net/jpg/03/62/48/17/360_F_362481762_WYOXzZBC8J63iIu26IeoxXlo7hhIa47w.jpg" alt="Avatar">
   <div class="container">
   <h4><b>Natural Language Processing</b></h4> 
   </div>
 </div>
-<div class="card">
+<div class="card card6">
   <img src="https://t4.ftcdn.net/jpg/03/62/48/17/360_F_362481762_WYOXzZBC8J63iIu26IeoxXlo7hhIa47w.jpg" alt="Avatar">
   <div class="container">
   <h4><b>Computer Vision</b></h4> 
   </div>
 </div>
-</div>  -->
+</div> 
 
+</div>
 
 

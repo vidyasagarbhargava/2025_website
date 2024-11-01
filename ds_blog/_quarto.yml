@@ -1,22 +1,23 @@
 project:
   type: website
-
+  output-dir: docs
 website:
   navbar:
     pinned: true
     logo: ""
-    left:
+    right:
       - href: index.qmd
         text: Home
       - about.qmd
-      - statistics.qmd
-      - href: machinelearning.qmd
+      - href: statistics/index.qmd
+        text: Statistics
+      - href: machinelearning/index.qmd
         text: Machine Learning
-      - href: deeplearning.qmd
+      - href: deeplearning/index.qmd
         text: Deep Learning
-      - href: nlp.qmd
+      - href: nlp/index.qmd
         text: NLP
-      - href: genai.qmd
+      - href: genai/index.qmd
         text: Gen AI
 
 format:

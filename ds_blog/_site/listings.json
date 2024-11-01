@@ -1,0 +1,37 @@
+[
+  {
+    "listing": "/machinelearning/index.html",
+    "items": [
+      "/machinelearning/posts/post-with-code/index.html",
+      "/machinelearning/posts/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/statistics/index.html",
+    "items": [
+      "/statistics/posts/post-with-code/index.html",
+      "/statistics/posts/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/deeplearning/index.html",
+    "items": [
+      "/deeplearning/posts/post-with-code/index.html",
+      "/deeplearning/posts/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/nlp/index.html",
+    "items": [
+      "/nlp/posts/post-with-code/index.html",
+      "/nlp/posts/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/genai/index.html",
+    "items": [
+      "/genai/posts/post-with-code/index.html",
+      "/genai/posts/welcome/index.html"
+    ]
+  }
+]

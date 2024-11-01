@@ -19,12 +19,14 @@
 
   /* Style for the card */
   .card {
-    width: 1000px; /* Adjust width as needed */
+    width: 200px; /* Adjust width as needed */
     border: 1px solid #ccc;
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     text-align: center;
+    color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
 
   /* Style for the image inside the card */
@@ -36,4 +38,9 @@
   /* Style for the container inside the card */
   .card .container {
     padding: 16px;
+  }
+
+  .card:hover {
+    transform: scale(1.05); /* Slightly increase size */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow */
   }

@@ -1,5 +1,5 @@
 ---
-image: https://img.freepik.com/free-vector/hand-drawn-business-communication-illustration_23-2149158973.jpg?t=st=1730270512~exp=1730274112~hmac=88b58f863df6ebd036ceab2e6893a1abe5f8190545d76e7a2564cdb8ca749892&w=2000
+image: /images/about_us.png
 about:
   template: marquee
 comments: false
@@ -7,18 +7,22 @@ execute:
   echo: false
 jupyter: python3
 ---
+
 ::: {.column-page}
 
 :::
- <h1 align="center">Real World Data Science</h1>
+ <!-- <h1 align="center">Real World Data Science</h1> -->
  <h4 align="center">Solving real world data science with open source tools!</h4>
+
+
+</br>
 
 
 
 <style>
 
 /* Unique background colors for each card */
-.card1 { background-color:  ; }  /* AliceBlue */
+.card1 { background-color: #447097; }  /* AliceBlue */
 .card2 { background-color: #EE6332; }  /* Lavender */
 .card3 { background-color: #404040; }  /* MistyRose */
 .card4 { background-color: #419596; }  /* LightGoldenRodYellow */
@@ -30,7 +34,7 @@ jupyter: python3
 
 <div class="card-container">
 
-<div class="card card1"  onclick="window.location.href='machinelearning.html'">
+<div class="card card1"  onclick="window.location.href='machinelearning/'">
   <img src="https://t4.ftcdn.net/jpg/03/62/48/17/360_F_362481762_WYOXzZBC8J63iIu26IeoxXlo7hhIa47w.jpg" alt="Avatar">
   <div class="container">
   <h4><b>Machine Learning</b></h4> 
@@ -39,33 +43,33 @@ jupyter: python3
 
 
 
-<div class="card card2" onclick="window.location.href='statistics.html'">
+<div class="card card2" onclick="window.location.href='statistics/'">
   <img src="https://t4.ftcdn.net/jpg/03/62/48/17/360_F_362481762_WYOXzZBC8J63iIu26IeoxXlo7hhIa47w.jpg" alt="Avatar">
   <div class="container">
   <h4><b>Statistics</b></h4> 
   </div>
 </div>
 
-<div class="card card3">
+<div class="card card3" onclick="window.location.href='deeplearning/'">
   <img src="https://t4.ftcdn.net/jpg/03/62/48/17/360_F_362481762_WYOXzZBC8J63iIu26IeoxXlo7hhIa47w.jpg" alt="Avatar">
   <div class="container">
   <h4><b>Deep Learning</b></h4> 
   </div>
 </div>
 
-<div class="card card4">
+<div class="card card4" onclick="window.location.href='generativeai/'">
   <img src="https://t4.ftcdn.net/jpg/03/62/48/17/360_F_362481762_WYOXzZBC8J63iIu26IeoxXlo7hhIa47w.jpg" alt="Avatar">
   <div class="container">
   <h4><b>Generative AI</b></h4> 
   </div>
 </div>
-<div class="card card5">
+<div class="card card5" onclick="window.location.href='nlp/'">
   <img src="https://t4.ftcdn.net/jpg/03/62/48/17/360_F_362481762_WYOXzZBC8J63iIu26IeoxXlo7hhIa47w.jpg" alt="Avatar">
   <div class="container">
   <h4><b>Natural Language Processing</b></h4> 
   </div>
 </div>
-<div class="card card6">
+<div class="card card6" onclick="window.location.href='computervision/'">
   <img src="https://t4.ftcdn.net/jpg/03/62/48/17/360_F_362481762_WYOXzZBC8J63iIu26IeoxXlo7hhIa47w.jpg" alt="Avatar">
   <div class="container">
   <h4><b>Computer Vision</b></h4> 

@@ -4,10 +4,8 @@ project:
 website:
   navbar:
     pinned: true
-    logo: ""
-    right:
-      - href: index.qmd
-        text: Home
+    logo: "/images/about_us.png"
+    left:
       - about.qmd
       - href: statistics/index.qmd
         text: Statistics
